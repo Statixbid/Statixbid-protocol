@@ -1,0 +1,108 @@
+HOME
+ABOUT
+RANKS
+DOCS
+Launch App
+A Launchpad Where
+Every Coin Comes With
+Its Own NFT Collection.
+Launch coins backed by NFTs. Trade coins for NFTs, earn rewards, and promote them for more.
+Get Started
+Built with
+Meteora
+pump.fun
+The idea
+One Coin. One Collection.
+$QUANTS is the platform coin and Quants are its NFTs. Anyone can also launch a hybrid NFT token: a token that comes with its own NFT collection, swappable the same way.
+Why? Built on the Metaplex 404 standard, an NFT swaps for its coin at a fixed rate, any time. That gives NFTs a liquid market without waiting for a willing buyer or a willing seller.
+The platform
+$QUANTS
+Quants
+$QUANTS ⇄ Quants
+The platform coin and its NFTs. One quant is always 100,000 $QUANTS, in either direction, and every quant earns stock each workday.
+Your hybrid token
+N
+$NUB
+Nub NFTs
+$NUB ⇄ Nub NFTs
+Anyone can launch a hybrid token. Say you launch $NUB: it comes with its own NFT collection and its own pool, and $NUB swaps for those Nub NFTs at a fixed rate, both ways, any time.
+Hire a quant
+Buy $QUANTS
+You pay
+0
+$QUANTS
+the pool's fixed rate: one quant is always 100,000 $QUANTS
+You receive
+1
+Quant NFT
+25 Open Positions
+Hire a quant
+How it works
+One Quant.
+A Fixed 0 $QUANTS.
+There is a set number of Quant NFTs, and each one swaps for the same fixed amount of $QUANTS.
+Step 1
+Buy $QUANTS
+Buy at least 100k $QUANTS, the platform coin, on the open market.
+Step 2
+Get A Quant
+20% of the total NFTs go straight into the pool. The rest you can mint with 100,000 tokens + 0.5 SOL. Minted quants start at Mid-Level; quants taken from the pool start as Juniors.
+Step 3
+Earn Rewards
+Your quant earns stock every workday.
+Step 4
+Move Up
+Promote your quant. The higher its rank, the more it earns.
+Rank
+Higher Rank,
+More Rewards.
+The higher your quant's rank, the more it earns every workday.
+A Mid-Level earns 2× a Junior, a Staff 4×, an Executive 8×.
+1x
+Junior
+Starting rank
+×2
+Mid-Level
+10,000 $QUANTS + 0.1 SOL
+×4
+Staff
+20,000 $QUANTS + 0.2 SOL
+×8
+Executive
+40,000 $QUANTS + 0.4 SOL
+Models
+Two Ways In. One Way Out.
+Get a quant from the pool or mint a new one. Sell it back to the pool any time.
+Hire
+100,000 $QUANTS + 0.2 SOL
+Take a quant from the pool. It starts as a Junior. The 0.2 SOL goes to payroll.
+Hire a quant
+Mint
+100,000 $QUANTS + 0.5 SOL
+Mint a new quant. It starts at Mid-Level, so it earns double. Your tokens back it in the pool; the 0.5 SOL goes to payroll.
+Mint a quant
+Quant NFT
+100,000 $QUANTS
+Sell
+100,000 $QUANTS Back
+Give any quant back to the pool and get 100,000 $QUANTS, any time. No listing, no bids. 0.2 SOL goes to payroll.
+Stock Portfolio
+One Collection. Five Stocks.
+Each Quant is paired with one of five stocks, and that is the stock it earns.
+Each quant wears its stock's ticker.
+Use cases
+Use case 01
+Launch A Hybrid NFT Token
+Your token will come with NFTs that can be swapped directly with the token. Holders swap the token for an NFT and back at a fixed rate, any time.
+Launch a hybrid token
+Use case 02
+Loot Boxes And Living Collections
+Add loot-box gamification to any 404 project: limited-time traits, randomised in-game rewards, a new source of revenue, and collections that evolve with the community.
+Developer SDK coming soon
+Launch Yours
+Launch A Hybrid NFT Token
+Your token will come with NFTs that can be swapped directly with the token.
+Launch a token
+$QUANTS swaps for Quants. Every quant gets paid.
+Back to top
+Launch coins backed by NFTs. Trade coins for NFTs, earn rewards, and promote them for more.

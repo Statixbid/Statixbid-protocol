@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Statix · Tokens meet art on Solana</title>
+<meta name="description" content="Statix matches tokens with NFT art on Solana, so every team ends up with a face its supporters can see, hold and show off.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Statix">
+<meta property="og:title" content="Statix">
+<meta property="og:description" content="Tokens meet art on Solana.">
+<meta property="og:image" content="/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;450;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="topbar">
+  {{ca}}
+  {{socials}}
+</header>
+<div class="vh" id="live-msg" role="status" aria-live="polite"></div>
+
+<main id="top">
+<section class="hero" data-section="top">
+  <div class="hero-in" id="hero">
+    <div class="mesh" aria-hidden="true">
+      <span class="blob b1 px" data-depth="-14"></span>
+      <span class="blob b2 px" data-depth="18"></span>
+      <span class="blob b3 px" data-depth="8"></span>
+      <span class="blob b4 px" data-depth="-24"></span>
+    </div>
+
+    <nav class="hero-nav" aria-label="Sections">
+      <a class="logo" href="#top" aria-label="Statix, scroll toward the beginning"><img src="assets/logo-640.png" srcset="assets/logo-640.png 1x, assets/logo-1280.png 2x" width="128" height="34" alt="Statix"></a>
+      <div class="dock" id="dock">
+        <a href="#top" data-nav="top" aria-current="true"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.5 7.5 8 3l5.5 4.5V13h-11z"/></svg>Base</a>
+        <a href="#concept" data-nav="concept"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5.5"/><path d="M8 7.2V11M8 5h.01"/></svg>Concept</a>
+        <a href="#radar" data-nav="radar"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13V8M8 13V3M13 13V6"/></svg>Radar</a>
+        <a href="#route" data-nav="route"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 3h6l2 2v8H4zM6.5 8h3M6.5 10.5h3"/></svg>Route</a>
+      </div>
+      <a class="btn btn-white" href="#radar">Watch the radar</a>
+    </nav>
+
+    <div class="hero-body">
+      <div class="head center px" data-depth="-4" id="hero-head">
+        <h1 class="rv" data-now data-i="0">Tokens Deserve More Than Charts.<br><span class="blurline">They Deserve A Universe.</span></h1>
+        <p class="rv" data-now data-i="2">Statix matches tokens with NFT art on Solana, so every team ends up with a face its supporters can see, hold and show off.</p>
+        <div class="cta-row rv" data-now data-i="3">
+          <a class="btn btn-blue" href="#concept">See the concept</a>
+          <a class="btn btn-white" href="#radar">Live radar</a>
+        </div>
+      </div>
+
+      <div class="built rv" data-now data-i="4">
+        <span>Runs on</span>
+        <span class="chip"><i></i>{{chain}}</span>
+        <span class="chip"><i></i>Public price feed</span>
+        <span class="chip"><i></i>Public RPC · {{rpc_host}}</span>
+      </div>
+
+      <div class="shot rv px" data-now data-i="6" data-depth="6" aria-label="Dashboard preview">
+        <div class="dash">
+          <div class="dash-top">
+            <span class="pill on">Overview</span><span class="pill">Explore</span><span class="pill">Create</span>
+            <span class="dash-search">Search a venture</span>
+          </div>
+          <div class="dash-main">
+            <div class="dash-card spot">
+              <small>Matched supply</small>
+              <b class="pending">pending</b>
+              <small>Details follow once confirmed</small>
+            </div>
+            <div class="dash-tiles">
+              <div class="stat spot"><small>Owners</small><b class="pending">pending</b></div>
+              <div class="stat spot"><small>Volume</small><b class="pending">pending</b></div>
+              <div class="stat spot"><small>Floor</small><b class="pending">pending</b></div>
+              <div class="stat spot"><small>Perks</small><b class="pending">pending</b></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-fade" aria-hidden="true"></div>
+  </div>
+</section>
+
+<div class="ticker" aria-label="Rolling prices off the radar" id="ticker">
+  <div class="track" id="track">{{ticker_skeleton}}</div>
+</div>
+
+<section class="wrap section" id="concept" data-section="concept">
+  <div class="head rv">
+    <span class="eyebrow">Concept</span>
+    <h2>Every Token Needs A Face.</h2>
+    <p>Figures on a screen fade fast. Dress tokens in artwork and a crowd suddenly has something to point toward.</p>
+  </div>
+  <div class="ideas">
+    <article class="card spot rv" data-i="0">
+      <div class="pair" aria-hidden="true">
+        <span class="tokpill"><i>T</i>House token</span>
+        <span class="swaparrows"><svg viewBox="0 0 16 16"><path d="M3 5.5h10M10.5 3 13 5.5 10.5 8M13 10.5H3M5.5 8 3 10.5 5.5 13"/></svg></span>
+        <span class="tokpill"><i class="alt">A</i>House art</span>
+      </div>
+      <span class="tag">House pair</span>
+      <h3>One Token, One Gallery</h3>
+      <p>The house token sits beside artwork made just for it. Terms and figures appear after the team confirms them.</p>
+    </article>
+    <article class="card spot rv" data-i="1">
+      <div class="pair" aria-hidden="true">
+        <span class="tokpill"><i>Y</i>Team token</span>
+        <span class="swaparrows"><svg viewBox="0 0 16 16"><path d="M3 5.5h10M10.5 3 13 5.5 10.5 8M13 10.5H3M5.5 8 3 10.5 5.5 13"/></svg></span>
+        <span class="tokpill"><i class="alt">Y</i>Team art</span>
+      </div>
+      <span class="tag">Venture pair</span>
+      <h3>Bring A Venture Of Your Choosing</h3>
+      <p>Any team may dress tokens in dedicated artwork. Specifics arrive once they are final.</p>
+    </article>
+  </div>
+</section>
+
+<section class="wrap section" id="radar" data-section="radar">
+  <div class="radar-head rv">
+    <div class="head">
+      <span class="eyebrow">Radar</span>
+      <h2>Solana, Busiest First.</h2>
+      <p>Ten boosted tokens ranked by daily turnover, pulled live from a public price feed.</p>
+    </div>
+    <div class="radar-note">
+      <span class="status" id="status" data-s="load"><span class="dot" aria-hidden="true"></span><span id="status-text">Syncing</span></span>
+    </div>
+  </div>
+  <div class="errline" id="errline" role="alert">The feed is unreachable right now, so figures show a dash until it answers.</div>
+  <div class="mtable rv" data-i="1" id="mtable" role="table" aria-label="Ten busiest Solana tokens by volume">
+    <div class="mhead" role="row">
+      <span role="columnheader">#</span><span role="columnheader">Token</span>
+      <span class="r" role="columnheader">Price</span><span class="r" role="columnheader">Change</span>
+      <span class="r" role="columnheader">Volume</span><span class="r" role="columnheader">Depth</span><span role="columnheader" class="vh">Copy</span>
+    </div>
+    <div id="rows">{{skeleton_rows}}</div>
+  </div>
+  <p class="dash-note">Volume adds up every venue per token. Depth means combined liquidity in dollars.</p>
+</section>
+
+<section class="wrap section" id="route" data-section="route">
+  <div class="how">
+    <div class="how-card spot rv">
+      <span class="glow" aria-hidden="true"></span>
+      <div class="swap" aria-label="Exchange panel preview">
+        <div class="swap-tabs"><span class="on">Enter</span><span>Exit</span></div>
+        <div class="swap-body">
+          <div class="swap-box"><small>Offer</small><div class="swap-row"><b>pending</b><span class="tokpill"><i>T</i>Token</span></div></div>
+          <div class="swap-box"><small>Yield</small><div class="swap-row"><b>pending</b><span class="tokpill"><i class="alt">A</i>Art</span></div></div>
+          <span class="swap-arrow" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M8 3v10M4 9l4 4 4-4"/></svg></span>
+        </div>
+        <span class="btn btn-white is-inert" aria-disabled="true" style="width:100%">Pending</span>
+      </div>
+    </div>
+    <div class="how-text">
+      <div class="head rv">
+        <span class="eyebrow">Route</span>
+        <h2>From First Look To Full Crowd.</h2>
+        <p>A simple path through the Statix universe, from spotting tokens to belonging to a crowd.</p>
+      </div>
+      <ol class="steps">
+        <li class="rv" data-i="0"><div class="rail"><span class="sico">1</span><span class="sline"></span></div><div class="stext"><small>Stage 1</small><h3>Notice a standout</h3><p>Scan the radar and pick a Solana token with a magnetic pull.</p></div></li>
+        <li class="rv" data-i="1"><div class="rail"><span class="sico">2</span><span class="sline"></span></div><div class="stext"><small>Stage 2</small><h3>Meet its artwork</h3><p>Teams attach galleries to their tokens, each gallery carrying a personality.</p></div></li>
+        <li class="rv" data-i="2"><div class="rail"><span class="sico">3</span><span class="sline"></span></div><div class="stext"><small>Stage 3</small><h3>Join the crowd</h3><p>Owners gather around shared art, perks and gatherings whenever a team offers them.</p></div></li>
+        <li class="rv" data-i="3"><div class="rail"><span class="sico">4</span><span class="sline"></span></div><div class="stext"><small>Stage 4</small><h3>Grow together</h3><p>A bigger crowd brings fresh art and extra reasons to linger.</p></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="wrap section">
+  <div class="head center rv">
+    <span class="eyebrow">Figures</span>
+    <h2>Key Figures, Reserved.</h2>
+    <p>These slots stay empty. Values appear after the team confirms them.</p>
+  </div>
+  <div class="figs">
+    <article class="fig spot rv" data-i="0"><div class="fig-top"><div><h3>Supply</h3><p class="pending">pending</p></div><span class="seal"><b>I</b></span></div><div class="bar"><i></i></div></article>
+    <article class="fig spot rv" data-i="1"><div class="fig-top"><div><h3>Owners</h3><p class="pending">pending</p></div><span class="seal"><b>II</b></span></div><div class="bar"><i></i></div></article>
+    <article class="fig spot rv" data-i="2"><div class="fig-top"><div><h3>Depth</h3><p class="pending">pending</p></div><span class="seal"><b>III</b></span></div><div class="bar"><i></i></div></article>
+    <article class="fig spot rv" data-i="3"><div class="fig-top"><div><h3>Perks</h3><p class="pending">pending</p></div><span class="seal"><b>IV</b></span></div><div class="bar"><i></i></div></article>
+  </div>
+</section>
+
+<section class="wrap section">
+  <div class="head rv">
+    <span class="eyebrow">Paths</span>
+    <h2>Three Doors, All Locked For Now.</h2>
+    <p>Join in, create anew, or leave. Terms are reserved until confirmed.</p>
+  </div>
+  <div class="models">
+    <div class="mcol">
+      <article class="card spot rv" data-i="0"><span class="tag">Door 1</span><h3>Join in</h3><p>Participate in a team that already owns a gallery. Terms pending.</p><span class="more">Terms pending</span></article>
+      <article class="card spot rv" data-i="1"><span class="tag">Door 2</span><h3>Create anew</h3><p>Match a fresh token with a fresh gallery and invite people along. Terms pending.</p><span class="more">Terms pending</span></article>
+    </div>
+    <article class="card spot card-end rv" data-i="2">
+      <div class="art" aria-hidden="true">
+        <span class="art-tile"><i></i>Art piece</span>
+        <span class="swaparrows"><svg viewBox="0 0 16 16"><path d="M3 5.5h10M10.5 3 13 5.5 10.5 8M13 10.5H3M5.5 8 3 10.5 5.5 13"/></svg></span>
+        <span class="tokpill"><i>T</i>Token</span>
+      </div>
+      <span class="tag">Door 3</span><h3>Leave</h3><p>Exit a venture whenever you like. Exact terms pending.</p><span class="more">Terms pending</span>
+    </article>
+  </div>
+</section>
+
+<section class="wrap section">
+  <div class="head center rv">
+    <span class="eyebrow">Frames</span>
+    <h2>A Look Inside The Universe.</h2>
+  </div>
+  <div class="frames rv">
+    <div class="frames-track">
+      <img src="assets/frame-1.jpg" width="1280" height="720" loading="lazy" alt="Statix brand frame, first">
+      <img src="assets/frame-2.jpg" width="1280" height="720" loading="lazy" alt="Statix brand frame, second">
+      <img src="assets/frame-3.jpg" width="1280" height="720" loading="lazy" alt="Statix brand frame, third">
+      <img src="assets/frame-4.jpg" width="1280" height="720" loading="lazy" alt="Statix brand frame, fourth">
+      <img src="assets/frame-5.jpg" width="1280" height="720" loading="lazy" alt="Statix brand frame, fifth">
+    </div>
+  </div>
+  <p class="note">Statix brand kit frames.</p>
+</section>
+
+<section class="wrap section">
+  <div class="head">
+    <span class="eyebrow rv">Scenarios</span>
+    <h2 class="rv">Where It Fits</h2>
+  </div>
+  <div class="ideas">
+    <article class="card spot rv" data-i="0"><span class="tag">Scenario 1</span><h3>Dress tokens in art</h3><p>A team lends visual identity to its token, which supporters can collect and display.</p></article>
+    <article class="card spot rv" data-i="1"><span class="tag">Scenario 2</span><h3>Perks and shifting galleries</h3><p>Galleries can carry perks and change shape while a crowd grows around them.</p><span class="tag">Builder tools pending</span></article>
+  </div>
+</section>
+
+<section class="wrap cta">
+  <div class="cta-in rv">
+    <span class="glow2" aria-hidden="true"></span>
+    <div class="head center">
+      <h2>Dress Tokens In Gallery Art.</h2>
+      <p>Match tokens with artwork and let the crowd find them.</p>
+      <span class="btn btn-white is-inert" aria-disabled="true">Create · pending</span>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="wrap foot">
+  <a class="logo" href="#top" aria-label="Statix, scroll toward the beginning"><img src="assets/logo-640.png" width="104" height="28" alt="Statix"></a>
+  <span>Tokens meet art on Solana.</span>
+  <a class="totop" href="#top" aria-label="Scroll toward the beginning"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 13V3M4 7l4-4 4 4"/></svg></a>
+</footer>
+
+<script type="application/json" id="register">{{register_json}}</script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

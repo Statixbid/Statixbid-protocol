@@ -1,0 +1,51 @@
+/*
+  Palette provenance (scripts/analyze-assets.py, k-means k=6 over every file in brand/ and reference/,
+  each centroid snapped to the nearest real pixel; x,y are source pixel coordinates).
+  This is the only file in the project allowed to hold colour literals.
+
+  --black       #000000  brand/LOGO STATIX PNG.png            (0,0)       97.1% of canvas
+  --ink         #fefdfe  brand/LOGO STATIX PNG...png          (728,886)   wordmark fill
+  --blue        #2430fa  brand/LOGO STATIX PNG...png          (1452,1066) wordmark dot
+  --blue-bright #0a2ff9  reference/SAMPUL STATIX JPG.jpg.jpeg (912,223)   banner lettering
+  --blue-mid    #0343d8  reference/STATIX 1.jpg.jpeg          (1401,726)  floor reflection
+  --navy-deep   #000514  reference/STATIX 1.jpg.jpeg          (586,454)   frame background
+  --navy        #021138  reference/STATIX 1.jpg.jpeg          (822,0)     frame glow
+  --navy-2      #022374  reference/STATIX 2.jpg.jpeg          (1137,676)  frame glow
+  --slate       #828fa2  reference/STATIX 1.jpg.jpeg          (713,467)   body text on frames
+  --paper       #f4f8fb  reference/STATIX 1.jpg.jpeg          (121,40)    frame headline
+
+  The logo PNG with alpha holds pure-black RGB in 3,878,057 fully transparent pixels, so every resize
+  of it is done premultiplied (scripts/prep-assets.py).
+*/
+:root {
+  --black: #000000;
+  --ink: #fefdfe;
+  --blue: #2430fa;
+  --blue-bright: #0a2ff9;
+  --blue-mid: #0343d8;
+  --navy-deep: #000514;
+  --navy: #021138;
+  --navy-2: #022374;
+  --slate: #828fa2;
+  --paper: #f4f8fb;
+
+  --black-rgb: 0 0 0;
+  --ink-rgb: 254 253 254;
+  --blue-rgb: 36 48 250;
+  --blue-bright-rgb: 10 47 249;
+  --blue-mid-rgb: 3 67 216;
+  --navy-rgb: 2 17 56;
+
+  --ink-80: rgb(var(--ink-rgb) / .8);
+  --ink-60: rgb(var(--ink-rgb) / .6);
+  --ink-50: rgb(var(--ink-rgb) / .5);
+  --glass: rgb(var(--ink-rgb) / .05);
+  --glass-2: rgb(var(--ink-rgb) / .1);
+  --line: rgb(var(--ink-rgb) / .2);
+  --blue-5: rgb(var(--blue-rgb) / .05);
+
+  --r: 32px;
+  --r2: 24px;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+  --ease-pop: cubic-bezier(.34, 1.56, .64, 1);
+}

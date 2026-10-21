@@ -1,0 +1,626 @@
+{
+ "brand\\LOGO STATIX JPG.jpg.jpeg": {
+  "bytes": 121547,
+  "magic": "ffd8ffe000104a46",
+  "format": "JPEG",
+  "mode": "RGB",
+  "alpha": {
+   "min": 255,
+   "max": 255,
+   "transparent": 0,
+   "opaque": 4000000,
+   "partial": 0
+  },
+  "pure_black_in_transparent": 0,
+  "kmeans_snapped": [
+   {
+    "share": 0.9709,
+    "hex": "#000000",
+    "at": [
+     0,
+     0
+    ]
+   },
+   {
+    "share": 0.0257,
+    "hex": "#fcfcfc",
+    "at": [
+     729,
+     887
+    ]
+   },
+   {
+    "share": 0.0011,
+    "hex": "#3b3b3d",
+    "at": [
+     829,
+     1015
+    ]
+   },
+   {
+    "share": 0.001,
+    "hex": "#cecece",
+    "at": [
+     750,
+     894
+    ]
+   },
+   {
+    "share": 0.0008,
+    "hex": "#848484",
+    "at": [
+     1176,
+     890
+    ]
+   },
+   {
+    "share": 0.0006,
+    "hex": "#2632f8",
+    "at": [
+     1492,
+     1078
+    ]
+   }
+  ],
+  "size": [
+   2000,
+   2000
+  ]
+ },
+ "brand\\LOGO STATIX PNG...png": {
+  "bytes": 139711,
+  "magic": "89504e470d0a1a0a",
+  "format": "PNG",
+  "IHDR": {
+   "w": 2000,
+   "h": 2000,
+   "bitdepth": 8,
+   "colortype": 6
+  },
+  "mode": "RGBA",
+  "alpha": {
+   "min": 0,
+   "max": 255,
+   "transparent": 3878057,
+   "opaque": 100555,
+   "partial": 21388
+  },
+  "pure_black_in_transparent": 3878057,
+  "kmeans_snapped": [
+   {
+    "share": 0.9696,
+    "hex": "#000000",
+    "at": [
+     1164,
+     904
+    ]
+   },
+   {
+    "share": 0.0226,
+    "hex": "#fefdfe",
+    "at": [
+     728,
+     886
+    ]
+   },
+   {
+    "share": 0.0056,
+    "hex": "#f8f8f8",
+    "at": [
+     1069,
+     887
+    ]
+   },
+   {
+    "share": 0.0015,
+    "hex": "#efeeef",
+    "at": [
+     626,
+     980
+    ]
+   },
+   {
+    "share": 0.0007,
+    "hex": "#2430fa",
+    "at": [
+     1452,
+     1066
+    ]
+   },
+   {
+    "share": 0.0,
+    "hex": "#cccccc",
+    "at": [
+     1198,
+     884
+    ]
+   }
+  ],
+  "size": [
+   2000,
+   2000
+  ]
+ },
+ "brand\\LOGO STATIX PNG.png": {
+  "bytes": 223903,
+  "magic": "89504e470d0a1a0a",
+  "format": "PNG",
+  "IHDR": {
+   "w": 2000,
+   "h": 2000,
+   "bitdepth": 8,
+   "colortype": 6
+  },
+  "mode": "RGBA",
+  "alpha": {
+   "min": 255,
+   "max": 255,
+   "transparent": 0,
+   "opaque": 4000000,
+   "partial": 0
+  },
+  "pure_black_in_transparent": 0,
+  "kmeans_snapped": [
+   {
+    "share": 0.9709,
+    "hex": "#000000",
+    "at": [
+     0,
+     0
+    ]
+   },
+   {
+    "share": 0.0257,
+    "hex": "#fcfcfc",
+    "at": [
+     729,
+     887
+    ]
+   },
+   {
+    "share": 0.0011,
+    "hex": "#3e3e3f",
+    "at": [
+     979,
+     952
+    ]
+   },
+   {
+    "share": 0.001,
+    "hex": "#cfcece",
+    "at": [
+     1248,
+     938
+    ]
+   },
+   {
+    "share": 0.0008,
+    "hex": "#858585",
+    "at": [
+     1036,
+     915
+    ]
+   },
+   {
+    "share": 0.0006,
+    "hex": "#2832fb",
+    "at": [
+     1486,
+     1071
+    ]
+   }
+  ],
+  "size": [
+   2000,
+   2000
+  ]
+ },
+ "reference\\SAMPUL STATIX JPG.jpg.jpeg": {
+  "bytes": 328735,
+  "magic": "ffd8ffe000104a46",
+  "format": "JPEG",
+  "mode": "RGB",
+  "alpha": {
+   "min": 255,
+   "max": 255,
+   "transparent": 0,
+   "opaque": 750000,
+   "partial": 0
+  },
+  "pure_black_in_transparent": 0,
+  "kmeans_snapped": [
+   {
+    "share": 0.9708,
+    "hex": "#fefefc",
+    "at": [
+     2,
+     0
+    ]
+   },
+   {
+    "share": 0.0117,
+    "hex": "#0a2ff9",
+    "at": [
+     912,
+     223
+    ]
+   },
+   {
+    "share": 0.009,
+    "hex": "#406afc",
+    "at": [
+     555,
+     233
+    ]
+   },
+   {
+    "share": 0.0035,
+    "hex": "#7996fa",
+    "at": [
+     627,
+     262
+    ]
+   },
+   {
+    "share": 0.0025,
+    "hex": "#dde5fc",
+    "at": [
+     348,
+     227
+    ]
+   },
+   {
+    "share": 0.0024,
+    "hex": "#b1c1fc",
+    "at": [
+     861,
+     247
+    ]
+   }
+  ],
+  "size": [
+   1500,
+   500
+  ]
+ },
+ "reference\\STATIX 1.jpg.jpeg": {
+  "bytes": 122916,
+  "magic": "ffd8ffe000104a46",
+  "format": "JPEG",
+  "mode": "RGB",
+  "alpha": {
+   "min": 255,
+   "max": 255,
+   "transparent": 0,
+   "opaque": 1440000,
+   "partial": 0
+  },
+  "pure_black_in_transparent": 0,
+  "kmeans_snapped": [
+   {
+    "share": 0.3844,
+    "hex": "#000514",
+    "at": [
+     586,
+     454
+    ]
+   },
+   {
+    "share": 0.3771,
+    "hex": "#021138",
+    "at": [
+     822,
+     0
+    ]
+   },
+   {
+    "share": 0.1257,
+    "hex": "#022173",
+    "at": [
+     1189,
+     675
+    ]
+   },
+   {
+    "share": 0.0597,
+    "hex": "#0343d8",
+    "at": [
+     1401,
+     726
+    ]
+   },
+   {
+    "share": 0.0468,
+    "hex": "#f4f8fb",
+    "at": [
+     121,
+     40
+    ]
+   },
+   {
+    "share": 0.0063,
+    "hex": "#828fa2",
+    "at": [
+     713,
+     467
+    ]
+   }
+  ],
+  "size": [
+   1600,
+   900
+  ]
+ },
+ "reference\\STATIX 2.jpg.jpeg": {
+  "bytes": 117951,
+  "magic": "ffd8ffe000104a46",
+  "format": "JPEG",
+  "mode": "RGB",
+  "alpha": {
+   "min": 255,
+   "max": 255,
+   "transparent": 0,
+   "opaque": 1440000,
+   "partial": 0
+  },
+  "pure_black_in_transparent": 0,
+  "kmeans_snapped": [
+   {
+    "share": 0.3877,
+    "hex": "#000514",
+    "at": [
+     717,
+     345
+    ]
+   },
+   {
+    "share": 0.3792,
+    "hex": "#021138",
+    "at": [
+     822,
+     0
+    ]
+   },
+   {
+    "share": 0.125,
+    "hex": "#022374",
+    "at": [
+     1137,
+     676
+    ]
+   },
+   {
+    "share": 0.0594,
+    "hex": "#0343d8",
+    "at": [
+     1401,
+     726
+    ]
+   },
+   {
+    "share": 0.0413,
+    "hex": "#f2f6f9",
+    "at": [
+     343,
+     321
+    ]
+   },
+   {
+    "share": 0.0074,
+    "hex": "#808c9c",
+    "at": [
+     528,
+     522
+    ]
+   }
+  ],
+  "size": [
+   1600,
+   900
+  ]
+ },
+ "reference\\STATIX 3.jpg.jpeg": {
+  "bytes": 118265,
+  "magic": "ffd8ffe000104a46",
+  "format": "JPEG",
+  "mode": "RGB",
+  "alpha": {
+   "min": 255,
+   "max": 255,
+   "transparent": 0,
+   "opaque": 1440000,
+   "partial": 0
+  },
+  "pure_black_in_transparent": 0,
+  "kmeans_snapped": [
+   {
+    "share": 0.3864,
+    "hex": "#000514",
+    "at": [
+     480,
+     490
+    ]
+   },
+   {
+    "share": 0.3799,
+    "hex": "#021138",
+    "at": [
+     822,
+     0
+    ]
+   },
+   {
+    "share": 0.1258,
+    "hex": "#032274",
+    "at": [
+     1185,
+     675
+    ]
+   },
+   {
+    "share": 0.0595,
+    "hex": "#0343d8",
+    "at": [
+     1401,
+     726
+    ]
+   },
+   {
+    "share": 0.0402,
+    "hex": "#f2f6f9",
+    "at": [
+     537,
+     322
+    ]
+   },
+   {
+    "share": 0.0081,
+    "hex": "#8894a4",
+    "at": [
+     518,
+     498
+    ]
+   }
+  ],
+  "size": [
+   1600,
+   900
+  ]
+ },
+ "reference\\STATIX 4.jpg.jpeg": {
+  "bytes": 121387,
+  "magic": "ffd8ffe000104a46",
+  "format": "JPEG",
+  "mode": "RGB",
+  "alpha": {
+   "min": 255,
+   "max": 255,
+   "transparent": 0,
+   "opaque": 1440000,
+   "partial": 0
+  },
+  "pure_black_in_transparent": 0,
+  "kmeans_snapped": [
+   {
+    "share": 0.3897,
+    "hex": "#000514",
+    "at": [
+     681,
+     333
+    ]
+   },
+   {
+    "share": 0.3728,
+    "hex": "#021138",
+    "at": [
+     822,
+     0
+    ]
+   },
+   {
+    "share": 0.1247,
+    "hex": "#022374",
+    "at": [
+     1137,
+     676
+    ]
+   },
+   {
+    "share": 0.0593,
+    "hex": "#0343d8",
+    "at": [
+     1401,
+     726
+    ]
+   },
+   {
+    "share": 0.0461,
+    "hex": "#f3f7fa",
+    "at": [
+     126,
+     38
+    ]
+   },
+   {
+    "share": 0.0074,
+    "hex": "#8b97a7",
+    "at": [
+     545,
+     498
+    ]
+   }
+  ],
+  "size": [
+   1600,
+   900
+  ]
+ },
+ "reference\\STATIX 5.jpg.jpeg": {
+  "bytes": 123893,
+  "magic": "ffd8ffe000104a46",
+  "format": "JPEG",
+  "mode": "RGB",
+  "alpha": {
+   "min": 255,
+   "max": 255,
+   "transparent": 0,
+   "opaque": 1440000,
+   "partial": 0
+  },
+  "pure_black_in_transparent": 0,
+  "kmeans_snapped": [
+   {
+    "share": 0.3823,
+    "hex": "#000514",
+    "at": [
+     704,
+     421
+    ]
+   },
+   {
+    "share": 0.3784,
+    "hex": "#021138",
+    "at": [
+     822,
+     0
+    ]
+   },
+   {
+    "share": 0.1258,
+    "hex": "#032274",
+    "at": [
+     1185,
+     675
+    ]
+   },
+   {
+    "share": 0.0596,
+    "hex": "#0343d8",
+    "at": [
+     1401,
+     726
+    ]
+   },
+   {
+    "share": 0.0462,
+    "hex": "#f3f7fa",
+    "at": [
+     126,
+     38
+    ]
+   },
+   {
+    "share": 0.0078,
+    "hex": "#8793a3",
+    "at": [
+     562,
+     490
+    ]
+   }
+  ],
+  "size": [
+   1600,
+   900
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "statix",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Statix landing site, static build for Cloudflare",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "assets": "python -I scripts/analyze-assets.py . > scripts/asset-report.json && python -I scripts/prep-assets.py .",
+    "build": "node scripts/build.mjs",
+    "gates": "node scripts/gates.mjs",
+    "serve": "node scripts/serve.mjs"
+  }
+}
